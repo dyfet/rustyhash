@@ -1,6 +1,6 @@
 [package]
 name = "rustyhash"
-version = "0.1.0"
+version = "0.1.1"
 description = "A consistent hashing library for Rust"
 readme = "README.md"
 homepage = "https://github.com/tychosoft/rustyhash"

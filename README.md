@@ -19,12 +19,6 @@ vnodes and ring collissions. This implementation matches the C++ reference
 implimentation in ModernCLI, and my go services implimentation at
 https://gitlab.com/tychosoft/service
 
-## Dependencies
-
-Net 8 or later is required since I use sha3. Otherwise this has no direct
-external dependencies. It is only implementation bound, to match other
-languages.
-
 ## Distributions
 
 The primary means to distribute rusty hash is as a mozilla crate and the latest
