@@ -79,7 +79,7 @@ impl Ring64 {
 
     pub fn get(&self, key: &str) -> Option<String> {
         let ring = self.ring.read().unwrap();
-        let hash = self.hasher.to_u64(&key.to_string());
+        let hash = self.hasher.to_u64(key);
         let mut it = ring.range(hash..).next();
         if it.is_none() {
             it = ring.iter().next();
