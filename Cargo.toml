@@ -1,0 +1,17 @@
+[package]
+name = "rustyhash"
+version = "0.1.0"
+description = "A consistent hashing library for Rust"
+readme = "README.md"
+homepage = "https://github.com/tychosoft/rustyhash"
+repository = "https://github.com/tychosoft/rustyhash/"
+keywords = ["hash", "digest", "distributed"]
+categories = ["algorithms", "data-structures", "network-programming"]
+authors = ["David Sugar <tychosoft@gmail.com>"]
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+sha2 = "0.10"
+sha3 = "0.10"
+digest = "0.10"
